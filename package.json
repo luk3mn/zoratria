@@ -1,5 +1,5 @@
 {
-  "name": "zoratria",
+  "name": "hotaru",
   "private": true,
   "scripts": {
     "build": "turbo run build",

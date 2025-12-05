@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <ThemedView className="flex-1 p-4">
       <ThemedText className="text-2xl font-bold mb-4">
-        Welcome to Zoratria
+        Welcome to Hotaru
       </ThemedText>
 
       {/* Card with mint background */}

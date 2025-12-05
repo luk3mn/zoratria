@@ -1,4 +1,4 @@
-# Project Name
+# Hotaru
 
 > Brief tagline or description of what your project does
 
@@ -56,10 +56,10 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/luk3mn/zoratria.git
+git clone https://github.com/luk3mn/hotaru.git
 
 # Navigate to project directory
-cd zoratria
+cd hotaru
 
 # Install dependencies
 bun install
@@ -77,10 +77,10 @@ __NOTE: If build fails, try moving out the mobile project folder to outside of t
 
 ```bash
 # Build the Docker image
-docker build -t zoratria .
+docker build -t hotaru .
 
 # Run the container
-docker run -p 3000:3000 zoratria
+docker run -p 3000:3000 hotaru
 ``` -->
 
 <!-- ## 💻 Usage
@@ -90,7 +90,7 @@ docker run -p 3000:3000 zoratria
 Provide simple examples of how to use your project:
 
 ```javascript
-import { YourModule } from 'zoratria';
+import { YourModule } from 'hotaru';
 
 const instance = new YourModule({
   option1: 'value1',
@@ -121,7 +121,7 @@ Create a `.env` file in the root directory:
 
 ```env
 # Application
-APP_NAME=zoratria
+APP_NAME=hotaru
 NODE_ENV=development
 PORT=3000
 
@@ -287,8 +287,8 @@ vercel --prod
 <!-- #### Docker
 
 ```bash
-docker build -t zoratria:latest .
-docker push your-registry/zoratria:latest
+docker build -t hotaru:latest .
+docker push your-registry/hotaru:latest
 ``` -->
 
 ### Environment-Specific Configuration
@@ -336,7 +336,7 @@ lsof -ti:8081 | xargs kill
 
 <!-- ### Getting Help
 
-- Check existing [GitHub Issues](https://github.com/luk3mn/zoratria/issues)
+- Check existing [GitHub Issues](https://github.com/luk3mn/hotaru/issues)
 - Join our [Discord community](https://discord.gg/your-invite)
 - Read the [detailed documentation](https://docs.yourproject.com) -->
 
